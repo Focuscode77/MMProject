@@ -87,7 +87,7 @@ function Footer() {
     >
       <View className='py-6 flex-1 items-start px-4 md:px-6 '>
         <Text className={'text-center text-gray-700'}>
-          © {new Date().getFullYear()} Me
+          © {new Date().getFullYear()} Project MM
         </Text>
       </View>
     </View>
