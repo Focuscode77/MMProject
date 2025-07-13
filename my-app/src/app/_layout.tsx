@@ -44,6 +44,12 @@ export default function Layout() {
         <Tabs.Screen
           name='history'
           options={{
+            tabBarBadge: 3,
+            tabBarBadgeStyle: { backgroundColor: 'red' },
+            tabBarActiveTintColor: 'black',
+            tabBarInactiveTintColor: 'gray',
+            tabBarStyle: { backgroundColor: 'white' },
+            tabBarLabelStyle: { fontSize: 12 },
             title: 'History',
             headerShown: false,
             tabBarIcon: ({ color, size }) => (

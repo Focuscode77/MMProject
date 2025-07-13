@@ -21,7 +21,7 @@ function Content() {
               role='heading'
               className='text-3xl text-center native:text-5xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl'
             >
-              User Workouts
+              Workouts
             </Text>
             <Text className='mx-auto max-w-[700px] text-lg text-center text-green-700 md:text-xl dark:text-green-800'>
               This is the profile function of the application where the user

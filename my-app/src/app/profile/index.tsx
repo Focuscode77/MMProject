@@ -5,7 +5,6 @@ import { SafeAreaView, Text } from 'react-native';
 export default function Page() {
   return (
     <SafeAreaView className='flex flex-1'>
-      <Text className='text-center text-2xl font-bold'>Profile</Text>
       <Content />
     </SafeAreaView>
   );
@@ -21,7 +20,7 @@ function Content() {
               role='heading'
               className='text-3xl text-center native:text-5xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl'
             >
-              User Profile's
+              User Profile
             </Text>
             <Text className='mx-auto max-w-[700px] text-lg text-center text-green-700 md:text-xl dark:text-green-800'>
               This is the profile function of the application where the user
